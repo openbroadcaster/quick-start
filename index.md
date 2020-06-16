@@ -79,6 +79,7 @@ assigned media types.
 1. Save the Player.
 
 NOTE When player is created, it will be assigned a `Device-ID` and the schedule for it will not display.
+{: .alert .alert-info}
 
 ## Player
 
