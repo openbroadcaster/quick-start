@@ -33,18 +33,6 @@ Updated OBServer and OBPlayer that can see each other on same machine or on netw
 
 1. You'll see the media you just added appear in the `Media Sidebar`
 
-### Search Media
-
-Your media is now in the database and can be searched
-
-All searches are based on the parameters you include when you upload your tracks. Please be accurate and thorough as possible when uploading tracks.
-
-Under the media tab you will find
-
-- `Simple` Quick search. Start typing and search results will appear.
-
-- `Advanced` Click to find keywords in artist, title, search by genre and other types, duration (in seconds). Check out the drop down menus for all the options. Click the Add button to apply the filter. Too many filters may not give you a result. To get out of Advanced search click the Simple link.
-
 ### Create Default Playlist
 
 If a Player cannot locate a schedule of media to be played, it will play the Default Playlist (DPL) in a loop to avoid dead air.  Server will sync DPL with remote Player and play the contents of DPL.
@@ -76,7 +64,7 @@ assigned media types.
 
 1. Set the `Timezone` that will be used for scheduling shows.
 
-1. Drag the __Playlist__ created in the previous step (DPL) from the Playlist sidebar tab to the __Default Playlist__ landing zone (the area highlighted during the drag operation).
+1. Drag the __Playlist__ created in the previous step (DPL) from the Playlist sidebar tab to the __Default Playlist__ drop zone (the area highlighted during the drag operation).
 
 1. Save the Player.
 
@@ -93,7 +81,7 @@ Access the [Player Dashboard](#dash) and go to the `Sync Media` page to enter th
 
 `Password` with the password you enter in server
 
-`Sync URL` http://<IP_of_Server>/remote.php 
+`Sync URL` https://<IP_of_Server>/remote.php 
 
 ### Sync the Player to Server
 
@@ -105,9 +93,29 @@ Once media is finished downloading, it will begin playing.
 
 ## Advanced
 
+### Search Media
+
+Your media is now in the database and can be searched
+
+All searches are based on the parameters you include when you upload your tracks. Please be accurate as possible entering Metadata when uploading tracks.
+
+Under the media tab you will find
+
+- `Simple` Quick search. Start typing and search results will appear.
+
+- `Advanced` Apply filters for: Artist, Title, Genre, Comments, Duration (in seconds). 
+
+Check out the drop down menus for all the options. 
+
+Click the Add button to apply the filter. 
+
+To get out of Advanced search click the Simple link.
+
+_Too many filters may not give you a result_
+
 ### Schedule a Show
 
-Once the Player is provisioned and playing the DPL, go into server and schedule a Playlist
+Once the Player is provisioned and playing the DPL, go into Server and schedule a Playlist
 
 1. Open `Schedule` on the bottom navigation bar on server
 
@@ -115,7 +123,9 @@ Once the Player is provisioned and playing the DPL, go into server and schedule 
 
 1. Select the date and times they are assigned and the show is set into the schedule.
 
-Media Items and Schedule information will automatically sync from server to player.
+1. Save
+
+Media items and schedule information will automatically sync from server to player.
 
 Intitial `show lock-in time` will require at least 20 minutes of lead time before playout of a scheduled or default playlist, thus ensuring all required media are downloaded before a show begins.
 {: .alert .alert-info}
