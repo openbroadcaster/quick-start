@@ -51,6 +51,8 @@ Use `Playlist` menu to create a new playlist:
 
 ### Create The Player
 
+![Provisioning Player](/img/create_player.png ){: .screen shot}
+
 Using the `admin` menu to access the `player manager` options:
 
 1. `Expand` existing Player Settings for a defined __Player__, or create a `New Player`.
@@ -58,6 +60,8 @@ Using the `admin` menu to access the `player manager` options:
 1. Provide a `Name` and `Description` for the __Player__.
 
 1. Enter the password that will be required for the __Player__ to establish a sync connection to the __Server__.
+
+1. Leave IP blank.
 
 1. Set the media types that will be available for the __Player__. Ensure the __Player__ is configured properly to handle the 
 assigned media types.
@@ -68,28 +72,38 @@ assigned media types.
 
 1. Save the Player.
 
-When player is created, it will be assigned a `Device-ID` and show up in `Schedule`
+When newly player is created, it will be assigned a unique `Device-ID` and show up in `Schedule`
 {: .alert .alert-info}
 
 ## Player
 
 ### Provision The Player
 
-Access the [Player Dashboard](#dash) and go to the `Sync Media` page to enter the 
+Access the [Player Dashboard](#dash) and go to the `Sync Media` page to enter 
 
 `Device ID`generated in `Player Manager`
 
 `Password` with the password you enter in server
 
-`Sync URL` https://<IP_of_Server>/remote.php 
+`Sync URL`  
+
+~~~~ 
+https://<IP_of_Server>/remote.php 
+~~~~
+
+For initial testing set `Media Sync Mode` to `Remote`
 
 ### Sync the Player to Server
 
-Restart player with `Admin>Delete DB and restart` Forces schedule and media sync refresh.
+![Start up Messages](/img/startup_messages.png ){: .screen shot}
+
+Restart player with `Admin>Delete DB and restart` Forces schedule and media sync refresh and take you back to main `Status` page.
 
 Observe sync connection messages. If no Red Errors then player is provisioned and is now run from server.  You will see media being downloaded.
 
 Once media is finished downloading, it will begin playing. 
+
+You will be able to hear audio coming out of Pulse Audio (used as default)
 
 ## Advanced
 
@@ -115,7 +129,7 @@ _Too many filters may not give you a result_
 
 ### Schedule a Show
 
-Once the Player is provisioned and playing the DPL, go into Server and schedule a Playlist
+Once the Player is provisioned and playing the DPL, go into Server and schedule a `Playlist` and `Media`
 
 1. Open `Schedule` on the bottom navigation bar on server
 
