@@ -27,11 +27,13 @@ Updated OBServer and OBPlayer that can see each other on same machine or on netw
 
 1. Select the file you want to upload.
 
-1. Fill in info for Artist,Title and Album
+1. Fill in minimal info for Artist and Title.
 
 1. Save
 
-### Search media
+1. You'll see the media you just added appear in the `Media Sidebar`
+
+### Search Media
 
 Your media is now in the database and can be searched
 
@@ -49,13 +51,13 @@ If a Player cannot locate a schedule of media to be played, it will play the Def
 
 Use `Playlist` menu to create a new playlist: 
 
-1. Select PLAYLIST "NEW"
+1. Select `Playlist>New`
 
 1. Provide a `Name` and `Description` for the (DPL).
 
 1. From the media sidebar tab, click hold to __drag and drop__ selections to the DPL. As items are added to the list of Playlist Items, the `Total Duration` for all items on the Playlist is updated. Add items to the Playlist until the desired duration is achieved. See [Server Documentation](/server/#playlist) for more details on composing Playlists.
 
-1. Status select visible. This allows users to see your show, but not change it. Private makes your show invisible to others. Public shares media through public API (if setup)
+1. Status select visible. This allows users to see your show, but not change it. Private makes your show invisible to others. Public shares media through public API (if enabled)
 
 1. Save Data.
 
@@ -78,7 +80,7 @@ assigned media types.
 
 1. Save the Player.
 
-NOTE When player is created, it will be assigned a `Device-ID` and the schedule for it will not display.
+When player is created, it will be assigned a `Device-ID` and show up in `Schedule`
 {: .alert .alert-info}
 
 ## Player
@@ -91,15 +93,17 @@ Access the [Player Dashboard](#dash) and go to the `Sync Media` page to enter th
 
 `Password` with the password you enter in server
 
-`Sync URL` <IP_of_Server>remote.php 
+`Sync URL` http://<IP_of_Server>/remote.php 
 
 ### Sync the Player to Server
 
-Restart player with Admin>Delete DB and restart (this forces schedule refresh)
+Restart player with `Admin>Delete DB and restart` Forces schedule and media sync refresh.
 
 Observe sync connection messages. If no Red Errors then player is provisioned and is now run from server.  You will see media being downloaded.
 
 Once media is finished downloading, it will begin playing. 
+
+## Advanced
 
 ### Schedule a Show
 
@@ -107,13 +111,13 @@ Once the Player is provisioned and playing the DPL, go into server and schedule 
 
 1. Open `Schedule` on the bottom navigation bar on server
 
-1. Locate `PLAYLIST` from sidebar and drag it into the schedule.
+1. Locate `Playlist` from sidebar and drag it into the schedule.
 
 1. Select the date and times they are assigned and the show is set into the schedule.
 
-Media Items and Schedule information will automatically sync from server to player
+Media Items and Schedule information will automatically sync from server to player.
 
-Note that the intitial `show lock-in time` will require at least 20 minutes of lead time before playout of a scheduled or default playlist, thus ensuring all required media are downloaded before a show begins.
+Intitial `show lock-in time` will require at least 20 minutes of lead time before playout of a scheduled or default playlist, thus ensuring all required media are downloaded before a show begins.
 {: .alert .alert-info}
 
 For more details, go to [Trouble Shooting](http://support.openbroadcaster.com/Troubleshooting)
