@@ -11,11 +11,11 @@ title: index
 # Quick Start Guide
 {:toc}
 
-Preamble instructions
+__Preamble instructions__
 
 This quick start guide will get media playing on a playout box managed by a OBServer.
 
-Perequisists
+__Prerequisites__
 
 Updated OBServer and OBPlayer that can see each other on same machine or on network. 
 
@@ -27,7 +27,7 @@ Updated OBServer and OBPlayer that can see each other on same machine or on netw
 
 1. Select the file you want to upload.
 
-1. Fill in minimal info for Artist and Title.
+1. Fill in mandatory info for Artist and Title.
 
 1. Save
 
@@ -43,7 +43,7 @@ Use `Playlist` menu to create a new playlist:
 
 1. Provide a `Name` and `Description` for the (DPL).
 
-1. From the media sidebar tab, click hold to __drag and drop__ selections to the DPL. As items are added to the list of Playlist Items, the `Total Duration` for all items on the Playlist is updated. Add items to the Playlist until the desired duration is achieved. See [Server Documentation](/server/#playlist) for more details on composing Playlists.
+1. From the media sidebar tab, click hold to __drag and drop__ selections to the DPL. As items are added to the list of Playlist Items, the `Total Duration` for all items on the Playlist is updated. Add items to the Playlist until the desired duration is achieved. See [Server Documentation](/server/#playlist) for more details on creating Playlists.
 
 1. Status select visible. This allows users to see your show, but not change it. Private makes your show invisible to others. Public shares media through public API (if enabled)
 
