@@ -51,7 +51,7 @@ Use `Playlist` menu to create a new playlist:
 
 ### Create The Player
 
-![Provisioning Player](/img/create_player.png ){: .screen shot}
+![Provisioning New Player](/img/create-player.png ){: .screen shot}
 
 Using the `admin` menu to access the `player manager` options:
 
