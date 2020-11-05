@@ -144,7 +144,7 @@ Media items and schedule information will automatically sync from server to play
 Intitial `show lock-in time` will require at least 20 minutes of lead time before playout of a scheduled or default playlist, thus ensuring all required media are downloaded before a show begins.
 {: .alert .alert-info}
 
-For more details, go to [Trouble Shooting](http://support.openbroadcaster.com/Troubleshooting)
+For more details, go to [Trouble Shooting](https://support.openbroadcaster.com/troubleshooting)
 
 
 
