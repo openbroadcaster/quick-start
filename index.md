@@ -95,7 +95,7 @@ For initial testing set `Media Sync Mode` to `Remote`
 
 ### Sync the Player to Server
 
-![Start up Messages](img/startup_messages.png ){: .screen shot}
+![Start up Messages](img/startup-messages.png ){: .screen shot}
 
 Restart player with `Admin>Delete DB and restart` Forces schedule and media sync refresh and take you back to main `Status` page.
 
