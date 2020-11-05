@@ -51,7 +51,7 @@ Use `Playlist` menu to create a new playlist:
 
 ### Create The Player
 
-![Provisioning New Player](/img/create-player.png ){: .screen shot}
+![Provisioning New Player](img/create-player.png ){: .screen shot}
 
 Using the `admin` menu to access the `player manager` options:
 
@@ -95,7 +95,7 @@ For initial testing set `Media Sync Mode` to `Remote`
 
 ### Sync the Player to Server
 
-![Start up Messages](/img/startup_messages.png ){: .screen shot}
+![Start up Messages](img/startup_messages.png ){: .screen shot}
 
 Restart player with `Admin>Delete DB and restart` Forces schedule and media sync refresh and take you back to main `Status` page.
 
@@ -144,7 +144,7 @@ Media items and schedule information will automatically sync from server to play
 Intitial `show lock-in time` will require at least 20 minutes of lead time before playout of a scheduled or default playlist, thus ensuring all required media are downloaded before a show begins.
 {: .alert .alert-info}
 
-For more details, go to [Trouble Shooting](https://support.openbroadcaster.com/troubleshooting)
+For more details, go to [Trouble Shooting](/troubleshooting)
 
 
 
