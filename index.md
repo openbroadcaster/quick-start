@@ -19,6 +19,8 @@ __Prerequisites__
 
 Updated OBServer and OBPlayer that can see each other on same machine or on network. 
 
+__Note: This documentation only applies to special hardware offerings and not part of the DIY self install instructions__
+
 ## Server
 
 ### Upload Media
