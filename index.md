@@ -45,7 +45,7 @@ Use `Playlist` menu to create a new playlist:
 
 1. Provide a `Name` and `Description` for the (DPL).
 
-1. From the media sidebar tab, click hold to __drag and drop__ selections to the DPL. As items are added to the list of Playlist Items, the `Total Duration` for all items on the Playlist is updated. Add items to the Playlist until the desired duration is achieved. See [Server Documentation](/server/#playlist) for more details on creating Playlists.
+1. From the media sidebar tab, click hold to __drag and drop__ selections to the DPL. As items are added to the list of Playlist Items, the `Total Duration` for all items on the Playlist is updated. Add items to the Playlist until the desired duration is achieved. See [Server Documentation](/observer/#playlist) for more details on creating Playlists.
 
 1. Status select visible. This allows users to see your show, but not change it. Private makes your show invisible to others. Public shares media through public API (if enabled)
 
