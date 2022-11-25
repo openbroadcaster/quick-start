@@ -81,7 +81,7 @@ When newly player is created, it will be assigned a unique `Device-ID` and show 
 
 ### Provision The Player
 
-Access the [Player Dashboard](#dash) and go to the `Sync Media` page to enter 
+Access the [Player Dashboard](#dash) and go to the `Sync Media`  
 
 `Device ID`generated in `Player Manager`
 
@@ -94,6 +94,10 @@ https://<IP_of_Server>/remote.php
 ~~~~
 
 For initial testing set `Media Sync Mode` to `Remote`
+
+'Enable The Scheduler' so the player tries to check managing server
+
+<SCREEN SHOT> Enable Scheduler
 
 ### Sync the Player to Server
 
