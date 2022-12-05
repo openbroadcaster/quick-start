@@ -97,7 +97,9 @@ For initial testing set `Media Sync Mode` to `Remote`
 
 'Enable The Scheduler' so the player tries to check managing server
 
-<SCREEN SHOT> Enable Scheduler
+Restart player to initite sync
+
+SCREEN SHOT Enable Scheduler
 
 ### Sync the Player to Server
 
