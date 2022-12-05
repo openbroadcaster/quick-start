@@ -13,13 +13,11 @@ title: index
 
 __Preamble instructions__
 
-This quick start guide will get media playing on a playout box managed by a OBServer.
+This quick start guide will help you get media playing on a OBPlayer box managed by a OBServer.  For instructions on installation and setting up the OBServer and OBPlayer see this [Getting Started](https://support.openbroadcaster.com/getting-started) guide first
 
 __Prerequisites__
 
 Updated OBServer and OBPlayer that can see each other on same machine or on network. 
-
-__Note: This documentation only applies to special hardware offerings and not part of the DIY self install instructions__
 
 ## Server
 
@@ -153,7 +151,3 @@ Intitial `show lock-in time` will require at least 20 minutes of lead time befor
 {: .alert .alert-info}
 
 For more details, go to [Trouble Shooting](/troubleshooting)
-
-
-
-
