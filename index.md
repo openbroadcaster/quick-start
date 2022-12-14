@@ -3,17 +3,17 @@ layout: default
 title: index
 ---
 
+# Quick Start Guide
+{:.no_toc}
+
 * TOC
 {:toc}
 
 <a name="dashboard"></a>
 
-# Quick Start Guide
-{:toc}
-
 __Preamble instructions__
 
-This quick start guide will help you get media playing on a OBPlayer box managed by a OBServer.  For instructions on installation and setting up the OBServer and OBPlayer see this [Getting Started](https://support.openbroadcaster.com/getting-started) guide first
+This quick start guide will help you get media playing on a OBPlayer box managed by a OBServer.  For instructions on setting up the OBServer and OBPlayer see this [installation](https://support.openbroadcaster.com/install) guide first.
 
 __Prerequisites__
 
@@ -79,23 +79,23 @@ When newly player is created, it will be assigned a unique `Device-ID` and show 
 
 ### Provision The Player
 
-Access the [Player Dashboard](#dash) and go to the `Sync Media`  
+Access the [Player Dashboard](https://support.openbroadcaster.com/obplayer/#administration) 
 
-`Device ID`generated in `Player Manager`
+Go to `Sync Media` Tab 
 
-`Password` with the password you enter in server
+'Enable The Scheduler' so the player tries to check managing server
 
-`Sync URL`  
+1. `Device ID`generated in `Player Manager`
+
+1. `Password` with the password you enter in server
+
+1. `Sync URL`  
 
 ~~~~ 
 https://<IP_of_Server>/remote.php 
 ~~~~
 
 For initial testing set `Media Sync Mode` to `Remote`
-
-'Enable The Scheduler' so the player tries to check managing server
-
-Restart player to initite sync
 
 SCREEN SHOT Enable Scheduler
 
@@ -141,7 +141,7 @@ Once the Player is provisioned and playing the DPL, go into Server and schedule 
 
 1. Locate `Playlist` from sidebar and drag it into the schedule.
 
-1. Select the date and times they are assigned and the show is set into the schedule.
+1. Enter the date and times parameters and show is set into the schedule.
 
 1. Save
 
