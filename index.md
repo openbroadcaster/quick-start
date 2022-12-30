@@ -2,14 +2,15 @@
 layout: default
 title: index
 ---
+<br/>
+
+![quick-start](https://user-images.githubusercontent.com/4603894/210112011-ccf344e7-c41e-4159-afbd-db28b1ded0d1.png)
 
 # Quick Start Guide
 {:.no_toc}
 
 * TOC
 {:toc}
-
-<a name="dashboard"></a>
 
 __Preamble instructions__
 
